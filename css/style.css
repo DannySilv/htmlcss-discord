@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+.mb-0-8 {
+    margin-bottom: 0.8em;
+}
+
 /* STRUCTURE */
 .container {
     width: 80%;
@@ -46,6 +50,11 @@ a {
     color: black;
 }
 
+.btn-dark {
+    background-color: #2b2b2b;
+    color: white;
+}
+
 .btn-small {
     display: inline-block;
     padding: 0.6em 1.2em;
@@ -53,10 +62,27 @@ a {
     font-size: 0.6em;
 }
 
+.btn-large {
+    display: inline-block;
+    padding: 0.8em 1.6em;
+    border-radius: 50px;
+    font-size: 0.75em;
+}
+
+/* TEXT EDITS */
+.text {
+    font-size: 0.7em;
+    line-height: 1.6em;
+}
+
+.title {
+    font-size: 1.9em;
+}
+
 /* HEADER */
 header {
     height: 50px;
-    background-color: #3161E0;
+    background-color: #255ee9;
 }
 
 .header-nav {
@@ -95,4 +121,31 @@ header {
 
 .nav-center .header-menu a {
     color: inherit;
+}
+
+/* MAIN */
+
+/* BANNER */
+.banner {
+    height: 325px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 2.5em 0;
+}
+
+.banner-content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.banner-content .buttons {
+    margin-top: 1.3em;
+}
+
+.banner-content .buttons .btn-large {
+    margin-right: 1em;
 }
