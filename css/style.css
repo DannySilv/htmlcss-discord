@@ -28,6 +28,10 @@ a {
     margin-bottom: 0.8em;
 }
 
+.mb-0-5 {
+    margin-bottom: 0.5em;
+}
+
 /* STRUCTURE */
 .container {
     width: 80%;
@@ -76,7 +80,7 @@ a {
 }
 
 .title {
-    font-size: 1.9em;
+    font-size: 2em;
 }
 
 /* HEADER */
@@ -127,12 +131,12 @@ header {
 
 /* BANNER */
 .banner {
-    height: 325px;
+    height: 400px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    padding: 2.5em 0;
+    padding: 8em 0;
 }
 
 .banner-content {
@@ -148,4 +152,19 @@ header {
 
 .banner-content .buttons .btn-large {
     margin-right: 1em;
+}
+
+/* ADVANTAGES SEC-1 */
+.advantage-sec {
+    padding: 2em;
+}
+
+.col-img {
+    width: 57%;
+    margin-right: 7%;
+}
+
+.col-text {
+    width: 36%;
+    margin-top: 2%;
 }
