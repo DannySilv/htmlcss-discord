@@ -59,6 +59,11 @@ a {
     color: white;
 }
 
+.btn-purple {
+    background-color: #8ea1e1;
+    color: white;
+}
+
 .btn-small {
     display: inline-block;
     padding: 0.6em 1.2em;
@@ -154,17 +159,52 @@ header {
     margin-right: 1em;
 }
 
-/* ADVANTAGES SEC-1 */
+/* COMMON ADVANTAGES SECTIONS */
 .advantage-sec {
     padding: 2em;
 }
 
-.col-img {
+.col-img-first {
     width: 57%;
     margin-right: 7%;
+}
+
+.col-img-second {
+    width: 57%;
+    margin-left: 7%;
 }
 
 .col-text {
     width: 36%;
     margin-top: 2%;
 }
+
+/* ADV SEC-2 & 4 */
+.advantage-sec-2 {
+    padding: 2em;
+    background-color: lightgray;
+}
+
+.bg-wave {
+    background-image: url(../img/wave.svg);
+    height: 4em;
+}
+
+/* ADV SEC-4 */
+.sec-4-text {
+    width: 100%;
+}
+
+.sec-4-center {
+    text-align: center;
+}
+
+.bg-h3 {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1em 0;
+}
+
+
