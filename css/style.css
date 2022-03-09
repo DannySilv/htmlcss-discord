@@ -9,3 +9,90 @@ html {
     font-family: "Lexend", sans-serif;
     font-size: 100%;
 }
+
+/* COMMON */
+img {
+    width: 100%;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* STRUCTURE */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+/* BUTTONS */
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-small {
+    display: inline-block;
+    padding: 0.6em 1.2em;
+    border-radius: 50px;
+    font-size: 0.6em;
+}
+
+/* HEADER */
+header {
+    height: 50px;
+    background-color: #3161E0;
+}
+
+.header-nav {
+    line-height: 50px;
+}
+
+.nav-logo, .nav-button {
+    width: 15%;
+}
+
+.nav-logo img {
+    vertical-align: middle;
+    height: 27px;
+    width: auto;
+}
+
+.nav-center {
+    width: 70%;
+    text-align: center;
+}
+
+.nav-center .header-menu li {
+    display: inline-block;
+    margin-right: 1em;
+    color: white;
+    font-size: 0.7em;
+}
+
+.nav-btn {
+    text-align: right;
+}
+
+.nav-btn a {
+    line-height: normal;
+}
+
+.nav-center .header-menu a {
+    color: inherit;
+}
