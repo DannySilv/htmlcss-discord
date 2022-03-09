@@ -24,12 +24,21 @@ a {
     text-decoration: none;
 }
 
+hr {
+    border: 0.0000000000000000000000000000000000000000000001em solid rgb(142, 161, 225, 0);
+    background-color: #8ea1e1;
+}
+
 .mb-0-8 {
     margin-bottom: 0.8em;
 }
 
 .mb-0-5 {
     margin-bottom: 0.5em;
+}
+
+.mr-0-5 {
+    margin-right: 0.5em;
 }
 
 /* STRUCTURE */
@@ -185,11 +194,6 @@ header {
     background-color: lightgray;
 }
 
-.bg-wave {
-    background-image: url(../img/wave.svg);
-    height: 4em;
-}
-
 /* ADV SEC-4 */
 .sec-4-text {
     width: 100%;
@@ -206,5 +210,78 @@ header {
     background-position: center;
     padding: 1em 0;
 }
+
+/* FOOTER */
+footer {
+    height: 450px;
+    background-color: #2b2b2b;
+}
+
+.footer-sec {
+    padding: 3em 2em 0;
+    vertical-align: top;
+    line-height: 1.7em;
+}
+
+.footer-sec-2 {
+    padding: 0 2em 3em;
+    vertical-align: top;
+    line-height: 1.7em;
+}
+
+.hr-container {
+    vertical-align: top;
+    padding: 0.8em 2em;
+}
+
+.title-footer {
+    font-size: 1.5em;
+    color: #8ea1e1;
+}
+
+.img-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+}
+
+.symb-container {
+    color: white;
+}
+
+.col-title-footer {
+    width: 30%;
+    margin-right: 7%;
+}
+
+.col-list {
+    width: 15.75%;
+}
+
+.list-title {
+    font-size: 0.7em;
+    font-weight: 800;
+    color: #8ea1e1;
+}
+
+.list-text {
+    font-size: 0.7em;
+    color: white;
+}
+
+.col-logo {
+    width: 50%;
+    text-align: left;
+}
+
+.col-footer-btn {
+    width: 50%;
+    text-align: right;
+}
+
+.col-footer-btn a {
+    line-height: normal;
+}
+
 
 
