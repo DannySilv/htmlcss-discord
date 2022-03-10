@@ -116,7 +116,7 @@ header {
     line-height: 50px;
 }
 
-.nav-logo, .nav-button {
+.nav-logo, .nav-btn {
     width: 15%;
 }
 
@@ -285,7 +285,6 @@ footer {
     font-family: "Lexend", sans-serif;
     font-size: 0.7em;
     font-weight: 400;
-
 }
 
 .col-logo {
